@@ -5,7 +5,7 @@
       "customType": "regex",
       "fileMatch": "dependency",
       "matchStrings": [
-        "^(?<depName>.*)\\t(?<currentValue>.*)\\t(?<currentDigest>.*)$"
+        "^(?<depName>.*)\\s+(?<currentValue>.*)\\s+(?<currentDigest>.*)\\n"
       ],
       "datasourceTemplate": "github-release-attachments",
     },
